@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dk{
+            width: 400px ;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow:0 5px 5px gray ;
+        }
+
+        .dk1{
+            width: 94%;
+        }
+
+        .dk1:focus{
+            background-color: yellow;
+        }
+
+        .btn{
+            width: 100px ;
+            height: 40px;
+            background-color: orangered ;
+            color: white ;
+            box-shadow: inset 0 0 10px lightgreen ;
+        }
+
+        .btn:hover{
+            background-color: white;
+            color: orange ;
+        }
+    </style>
+</head> 
+<body>
+    <h1 style="text-align: center;">from lien he</h1>
+    <form class="dk" action="" method="post">
+        Ho va ten: <br>
+        <input class="dk1" type="text" name="" ib=""> <br>
+        Gioi tinh:
+        <label for="">
+            <input type="radio" name="gender" id=""> nam
+            <input type="radio" name="gender" id=""> nu
+        </label> <br>
+        Quoc tich: <br>
+        <select name="list" id="list">
+            <option value="VietNam">VietNam</option>
+            <option value="Lao">lao</option>
+            <option value="Thailan">Thailan</option>
+            <option value="Nga">Nga</option>
+            <option value="American">American</option>
+        </select> <br>
+
+        so thich: <br>
+        <label for="">
+            <input type="checkbox" name="" id=""> thethao
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id=""> dulich
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id=""> kinhte
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id=""> cong nghe thong tin
+        </label> <br>
+
+        ghi chu: <br>
+        <textarea class="dk1" name="" id="" cols="50" rows="10"></textarea> <br>
+        <hr>
+        <input class="btn" type="submit" value="submit">
+        <input class="btn" type="reset" value="reset">
+    </form>
+</body>
+</html>
